@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: banking-app-container
-        image: loksaieta/bankingwebapp
+        image: badigerm/fundmebankingwebapp:latest
         ports:
         - containerPort: 8082
 ---
